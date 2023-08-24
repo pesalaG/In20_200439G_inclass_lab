@@ -16,7 +16,7 @@ struct Graph{
     Node * nodes = new Node[n];
 
     void intializenodes(){
-        //iterate through the nodes and assign labels
+        //iterate through the nodes , assign labels
         for(int i=0;i<n;i++){
             nodes[i].label=i;
         }
